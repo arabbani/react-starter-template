@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 .eslintcache
+!.prettierrc.cjs
 
 # Editor directories and files
 .vscode/*
