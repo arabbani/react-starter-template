@@ -17,6 +17,13 @@
     "jsx": "react-jsx",
     "types": ["vite/client"]
   },
-  "include": [".eslintrc.cjs", ".prettierrc.cjs", "vite.config.ts", "src"],
+  "include": [
+    ".eslintrc.cjs",
+    ".prettierrc.cjs",
+    "vite.config.ts",
+    "tailwind.config.cjs",
+    "postcss.config.cjs",
+    "src"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
