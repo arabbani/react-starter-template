@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint --cache .",
     "lint:fix": "npm run lint -- --fix",
-    "validate": "tsc && npm run lint"
+    "format": "prettier --write .",
+    "validate": "tsc && npm run format && npm run lint:fix"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -22,7 +23,9 @@
     "@typescript-eslint/parser": "^5.54.1",
     "@vitejs/plugin-react": "^3.1.0",
     "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.4",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vite-plugin-checker": "^0.5.6"

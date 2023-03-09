@@ -15,8 +15,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": [".eslintrc.cjs", "vite.config.ts", "vite/client"]
+    "types": ["vite/client"]
   },
-  "include": ["src"],
+  "include": [".eslintrc.cjs", ".prettierrc.cjs", "vite.config.ts", "src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
